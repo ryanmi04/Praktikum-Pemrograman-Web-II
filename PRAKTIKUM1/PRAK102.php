@@ -2,7 +2,7 @@
 
 $radius = 4.2;
 $height = 5.4;
-$lenght = 8.9;
+$length = 8.9;
 $width = 14.7;
 $side = 7.9;
 
