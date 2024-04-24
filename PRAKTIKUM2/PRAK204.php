@@ -9,7 +9,7 @@
 
 <body>
     <form action="" method="post">
-        Nilai:
+        Nilai :
         <input type="text" name="nilai" value="<?= isset($_POST['nilai']) ? $_POST['nilai'] : '' ?>"> <br>
         <button type="submit" name="konversi">Konversi</button>
     </form>
