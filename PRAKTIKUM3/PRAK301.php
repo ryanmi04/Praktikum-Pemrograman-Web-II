@@ -9,7 +9,7 @@
 
 <body>
     <form action="" method="post">
-        Jumlah Peserta : <input type="text" name="peserta" value="<?= isset($_POST['peserta']) ? $_POST['peserta'] : '' ?>"> <br>
+        Jumlah Peserta : <input type="number" name="peserta" value="<?= isset($_POST['peserta']) ? $_POST['peserta'] : '' ?>"> <br>
         <button type="submit" name="cetak">Cetak</button>
     </form>
 

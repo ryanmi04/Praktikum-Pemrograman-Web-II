@@ -9,7 +9,7 @@
 
 <body>
     <form action="" method="post">
-        Tinggi : <input type="text" name="tinggi" value="<?= isset($_POST['tinggi']) ? $_POST['tinggi'] : '' ?>"> <br>
+        Tinggi : <input type="number" name="tinggi" value="<?= isset($_POST['tinggi']) ? $_POST['tinggi'] : '' ?>"> <br>
         Alamat Gambar : <input type="text" name="urlgambar" value="<?= isset($_POST['urlgambar']) ? $_POST['urlgambar'] : '' ?>"> <br>
         <button type="submit" name="cetak">Cetak</button><br> <br>
     </form>

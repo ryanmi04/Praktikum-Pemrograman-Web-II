@@ -10,7 +10,7 @@
 <body>
     <form action="" method="post">
         Batas Bawah : <input type="number" name="b_bawah" value="<?= isset($_POST['b_bawah']) ? $_POST['b_bawah'] : '' ?>"> <br>
-        Batas Atas : <input type="" name="b_atas" value="<?= isset($_POST['b_atas']) ? $_POST['b_atas'] : '' ?>"> <br>
+        Batas Atas : <input type="number" name="b_atas" value="<?= isset($_POST['b_atas']) ? $_POST['b_atas'] : '' ?>"> <br>
         <button type="submit" name="cetak">Cetak</button><br> <br>
     </form>
 
